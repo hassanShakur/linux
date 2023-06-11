@@ -55,3 +55,16 @@ c # Special/Device file
 s # Socket
 p # Named pipe
 b # Block device
+
+# Write to a file
+echo "Some text" >file
+
+# Append
+echo "Some text" >>file
+ls -l >>file
+
+# Write to file & still display resuild - tee - T
+ls -l | tee file
+
+# Do the same but append -a
+ls -l | tee -a file
