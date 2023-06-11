@@ -43,3 +43,6 @@ gzip -d a.tar.gz
 
 # Truncate file to fit a specified size. Extra file content is lost
 truncate -s 30 file # Trunc to 30 bytes
+
+# Split file to several
+split -l 3 fileName result # Separates the file per 3 lines and each will be stored in the `result` files. If more than 6 lines exist, resultaa, resultab... will be created
