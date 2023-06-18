@@ -15,8 +15,11 @@ systemctl status ntpd
 # Stop process
 systemctl stop ntpd
 
-# Or
+# Or Kill by Process ID
 kill PID
+
+# Kill bu name
+pkill name
 
 # Start service on bootup
 systemctl enable ntpd
