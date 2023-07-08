@@ -9,6 +9,15 @@ touch file-{1..8} # Creates file-1, file-2...
 rm file
 rmdir dir
 
+# Delete everything
+rm -rf path/to/dir
+
+# Copy
+cp file /new/destination
+
+# Copy everything
+cp -rv dest/nation
+
 # Display files & dirs sorted according to creation time
 ls -lt
 

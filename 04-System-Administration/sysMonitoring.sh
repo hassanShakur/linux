@@ -7,6 +7,9 @@ df -h # Human readable
 
 du # File usage and what files occupy which space
 
+# See free space
+du -sh . # . for current disk location
+
 # Mem utilization & swap space
 free
 
